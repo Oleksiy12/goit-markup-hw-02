@@ -1,0 +1,139 @@
+/*Параметри які є у всіх об'єктах*/
+body{
+color: black;
+font-family: 'Roboto';
+font-style: normal;
+background-color: white;
+}
+
+/*підкреслення*/
+.line{
+text-decoration: none;
+color: black;
+}
+
+/*логотип*/
+.logo{
+width: 145px;
+height: 31px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+}
+
+/*навігація*/
+.nav-first{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.telmail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/*Параметри для заголовків 2рівня */
+.title-second{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+/*не існуюючий заголовок*/
+.defunct{
+font-size: 0;
+}
+
+/*всі маркери*/
+.list{
+list-style: none;
+}
+
+/*Hero*/
+.hero{
+background-color: #2F303A;;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-button{
+background-color: rgba(33, 150, 243, 1);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+/*Наші особливості*/
+.features{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.paragraph-features{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*Чим ми займаємося
+--
+*/
+
+/*Наша команда*/
+.staff-paragraph{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+.staff-profession{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+/*Підвал сторінки*/
+
+.basement-hero{
+background-color: #2F303A;;
+}
+.mail-tell-foot{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+font-style: normal;
+}
+.map{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+font-style: normal;
+}
