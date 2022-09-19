@@ -82,9 +82,24 @@ color: #FFFFFF;
 }
 
 
+/*Головний текст*/
 
 .hero{
 background-color: rgba(238, 238, 238, 1);
+}
+.hero-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121; 
+}
+.paragraph-hero{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 /*Підвал сторінки*/
