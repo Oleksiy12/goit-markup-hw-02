@@ -1,3 +1,4 @@
+
 /*Параметри які є у всіх об'єктах*/
 body{
 color: black;
@@ -6,12 +7,30 @@ font-style: normal;
 background-color: white;
 }
 
+/*Універсальні класси*/
+/*hover focus*/
+a:hover{
+color:rgba(33, 150, 243, 1);
+}
+a:focus{
+color:rgba(33, 150, 243, 1);
+}
 /*підкреслення*/
 .line{
 text-decoration: none;
 color: black;
 }
-
+/*Параметри для заголовків 2рівня */
+.title-second{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+/*Курсор*/
+.cursor{
+cursor: pointer;
+}
 /*логотип*/
 .logo{
 width: 145px;
@@ -25,8 +44,13 @@ letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
 }
+/*всі маркери*/
+.points{
+list-style: none;
+}
 
-/*навігація*/
+
+/*навігація шапки*/
 .nav-first{
 font-weight: 500;
 font-size: 14px;
@@ -41,27 +65,13 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-
-/*Параметри для заголовків 2рівня */
-.title-second{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
+.logo-leters{
+color: #000000;;
 }
 
-/*не існуюючий заголовок*/
-.defunct{
-font-size: 0;
-}
-
-/*всі маркери*/
-.list{
-list-style: none;
-}
 
 /*Hero*/
-.hero{
+.hero-sect{
 background-color: #2F303A;;
 font-weight: 900;
 font-size: 44px;
@@ -77,7 +87,6 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-cursor: pointer;
 }
 
 /*Наші особливості*/
@@ -94,6 +103,10 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
+}
+/*не існуюючий заголовок*/
+.defunct{
+font-size: 0;
 }
 
 /*Чим ми займаємося
@@ -112,6 +125,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+}
+.team{
+background-color:rgba(245, 244, 250, 1);
 }
 
 /*Підвал сторінки*/
@@ -136,4 +152,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 text-decoration: none;
 font-style: normal;
+}
+.two-logo-letters{
+color:#FFFFFF;
 }
