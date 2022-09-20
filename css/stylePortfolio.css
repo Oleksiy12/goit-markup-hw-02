@@ -1,24 +1,37 @@
+/*Кольори сторінки*/
+:root{
+--basic-color: #212121;
+--sac-basic-color: #ffffff;
+--another-color:#2196f3;
+--subtitle-color:#757575;
+--back-color: #2f303a;
+--uknown-color: #ffffff99;
+}
+
 
 /*Параметри які є у всіх об'єктах*/
 body{
-font-family: 'Roboto';
-font-style: normal;
-color: black;
-background-color: white;
+font-family: 'Roboto', sans-serif;
+color: var(--basic-color);
+background-color: var(--sac-basic-color);
 }
 
 /*Універсальні класси*/
 /*hover focus*/
 a:hover{
-color:rgba(33, 150, 243, 1);
+color: var(--another-color);
 }
 a:focus{
-color:rgba(33, 150, 243, 1);
+color: var(--another-color);
 }
 /*підкреслення*/
 .line{
 text-decoration: none;
-color: black;
+color: var(--basic-color);
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
 }
 /*Курсор*/
 .cursor{
@@ -34,7 +47,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--another-color);
 text-decoration: none;
 }
 /*всі маркери*/
@@ -42,27 +55,26 @@ text-decoration: none;
 list-style: none;
 }
 .hero-title,.paragraph-hero{
-background-color: #FFFFFF;
+background-color: var(--sac-basic-color);
 }
 
 
 /*навігація шапки*/
 .nav-first{
-font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--basic-color);
 }
 .telmail {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--subtitle-color);
 }
 .logo-leters{
-color: #000000;;
+color: var(--basic-color);
 }
 
 /*Кнопки*/
@@ -75,44 +87,51 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
+color: var(--basic-color);
 }
 button:hover{
-background-color: #2196F3;
-color: #FFFFFF;
+background-color: var(--another-color);
+color: var(--sac-basic-color);
 }
-
+button:focus{
+background-color: var(--another-color);
+color: var(--sac-basic-color);
+}
+.list-button{
+list-style: none;
+}
 
 /*Головний текст*/
 
-.hero{
-background-color: rgba(238, 238, 238, 1);
-}
 .hero-title{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121; 
+color: var(--basic-color); 
 }
 .paragraph-hero{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--subtitle-color);
+}
+a   {
+text-decoration: none;
 }
 
 /*Підвал сторінки*/
 
 .basement-hero{
-background-color: #2F303A;;
+background-color: var(--back-color);
 }
 .mail-tell-foot{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--uknown-color);
 text-decoration: none;
 font-style: normal;
 }
@@ -121,11 +140,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--sac-basic-color);
 text-decoration: none;
 font-style: normal;
 }
 .two-logo-letters{
-color:#FFFFFF;
+color: var(--sac-basic-color);
 }
     
