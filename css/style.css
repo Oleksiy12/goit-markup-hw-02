@@ -6,7 +6,8 @@
 --subtitle-color:#757575;
 --back-color: #2f303a;
 --uknown-color: #ffffff99;
-
+--back-batt-color: #188CE8;
+--back-section-color: #F5F4FA;
 }
 
 
@@ -71,6 +72,7 @@ list-style: none;
 
 /*навігація шапки*/
 .nav-first{
+font-weight:500 ;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -108,7 +110,7 @@ text-transform: uppercase;
 color: var(--sac-basic-color);
 }
 .hero-button{ 
-color: var(--another-color);
+background-color: var(--back-batt-color);
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 16px;
@@ -156,7 +158,10 @@ letter-spacing: 0.03em;
 color: var(--subtitle-color);
 }
 .team{
-background-color: var(--transparency-colore-one);
+background-color: var(--back-section-color);
+}
+.team-list{
+background-color: var(--sac-basic-color);
 }
 
 /*Підвал сторінки*/
